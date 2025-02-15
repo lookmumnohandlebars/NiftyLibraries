@@ -7,7 +7,7 @@
 
 > Types that can extend or improve your use of the language (and write cleaner code!)
 
-- [**LanguageExt** (Functional Utilities)](): Simply put... any application
+- [**LanguageExt** (Functional Utilities)](https://github.com/louthy/language-ext): Simply put... any application can have this included almost by default. Includes a bunch of extra basic types
 - [**FluentResults** (Specialized result type)](https://github.com/altmann/FluentResults): 
 - [**ErrorOr** (Error-Result type)](https://github.com/amantinband/error-or): Like the Option or Result type, but with an "error-handling first" approach.
 
@@ -16,6 +16,12 @@
 
   - 
 </details>
+
+## 🧰 Utility SDK's
+
+> Libraries and Development
+
+- [**Polly** (Resiliency/Retries)](https://github.com/App-vNext/Polly)
 
 
 ## 🎏 Asynchrony, Concurrency and Multithreading
@@ -48,7 +54,7 @@
 ## 📜 API Documentation
 - [**Microsoft.OpenAPI** (OpenAPI)](https://github.com/Microsoft/OpenAPI.NET): Where swagger once ruled, Microsoft's OpenAPI.NET is now the best of all worlds! Highly recommended!
 - [**Kiota** (SDK Generation)](https://github.com/microsoft/kiota): Not specifically .NET... but you can use really neatly with OpenAPI to generate SDK's, and save yourself HOURS of development.
-- [**DocFX**](https://github.com/dotnet/docfx): The .NET team's own take on developer docs, integrates really well with both XML docs and standard .NET repos! You can also generate
+- [**DocFX** (Document Site Generation)](https://github.com/dotnet/docfx): The .NET team's own take on developer docs, integrates really well with both XML docs and standard .NET repos! You can also generate
 
 ## 💽 Data Handling
 - [**System.Text.Json** (JSON)](https://www.nuget.org/packages/system.text.json/): Microsoft's in-house json library is now the standard, and it comes with some tricky-to-learn but easy-to-use paradigms, especially when it comes to customization.
