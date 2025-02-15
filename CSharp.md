@@ -4,8 +4,18 @@
 > You can choose to this as a starter-list for "accepted" open-source libraries for your company, department or project, and expand as you need (preventing duplication of
 
 ## 🧰 Utility Types
-- [**FluentResults**](https://github.com/altmann/FluentResults): 
-- [**ErrorOr**](https://github.com/amantinband/error-or): Like the Option or result type, but with an "error-handling first" approach.
+
+> Types that can extend or improve your use of the language (and write cleaner code!)
+
+- [**LanguageExt** (Functional Utilities)](): Simply put... any application
+- [**FluentResults** (Specialized result type)](https://github.com/altmann/FluentResults): 
+- [**ErrorOr** (Error-Result type)](https://github.com/amantinband/error-or): Like the Option or Result type, but with an "error-handling first" approach.
+
+<details>
+  <summary> System Library Bits To Not Forget!</summary>
+
+  - 
+</details>
 
 
 ## 🎏 Asynchrony, Concurrency and Multithreading
@@ -21,7 +31,7 @@
 
 > These libraries are for developing 
 
-- [**Cocona** (CLI Framework)]():
+- [**Cocona** (CLI Framework)](https://github.com/mayuki/Cocona): Makes composing a high-quality 
 - [**Spectre.Console** (Console API)]():
 - [**Kurukuru** (Spinner)]():
 - [**Dumpify** (Table-Printing)]():
@@ -38,7 +48,7 @@
 ## 📜 API Documentation
 - [**Microsoft.OpenAPI** (OpenAPI)](https://github.com/Microsoft/OpenAPI.NET): Where swagger once ruled, Microsoft's OpenAPI.NET is now the best of all worlds! Highly recommended!
 - [**Kiota** (SDK Generation)](https://github.com/microsoft/kiota): Not specifically .NET... but you can use really neatly with OpenAPI to generate SDK's, and save yourself HOURS of development.
-- [**DocFX**](https://github.com/dotnet/docfx): The .NET team's own take on developer docs, integrates really well with both XML docs and standard .NET repos! You can also generate 
+- [**DocFX**](https://github.com/dotnet/docfx): The .NET team's own take on developer docs, integrates really well with both XML docs and standard .NET repos! You can also generate
 
 ## 💽 Data Handling
 - [**System.Text.Json** (JSON)](https://www.nuget.org/packages/system.text.json/): Microsoft's in-house json library is now the standard, and it comes with some tricky-to-learn but easy-to-use paradigms, especially when it comes to customization.
@@ -50,12 +60,12 @@
 ## ☑️ Validation & Sanitization
 - [**FluentValidation** (Validation)](https://github.com/FluentValidation/FluentValidation):
 - [**DataAnnotations** (Validation)](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=net-9.0): Including this also as for most simple cases, it should be enough, but lacks the customization that FluentValidation has
-- [**Throw** (Guard Clauses)]():
-- [**HtmlSanitizer**](https://github.com/mganss/HtmlSanitizer):
+- [**Throw** (Guard Clauses)](https://github.com/amantinband/throw):
+- [**HtmlSanitizer**](https://github.com/mganss/HtmlSanitizer): If you need a large amount of control 
 
 ## 🔐 Security
 
-> For obvious reasons, the dotnet/microsoft libraries have the most security. I
+> For obvious reasons, the dotnet/microsoft libraries have the most security. However there are some specialist cases
 
-- [**JWT**]:
+- [**JWT**]():
 - [**NSec** (Cryptography)](https://github.com/ektrah/nsec): A trusted utility library 
