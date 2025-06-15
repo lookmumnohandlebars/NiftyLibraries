@@ -1,4 +1,6 @@
-# Nifty Command Line Tools
+# Nifty Dev-Tools
+
+## Command-Line Tools
 
 > There are plenty of CLI tools... these are the ones I end up using a great deal in my own set-up
 
@@ -9,4 +11,17 @@
 - [**Taskfile** (Command Runner)](https://taskfile.dev/): I can't tell you just how much of a godsend Taskfile is. Every command in your repo can simply can be defined in a super-friendly to read and develop with YAML file, and then run in the command line with `task my-task`. Really flexible, cross-platform. If you aren't using a library that supports defining scripts itself, I would use this every time.
 - [**Alex** (Insensitive Language Checker)](https://github.com/get-alex/alex): Useful generally in pre-commit hooks to make sure your use of language is up to scratch.
 - [**HTTPie** (HTTP Client)](https://httpie.io/cli): A friendlier version of CURL.
-- [**lsd**](https://github.com/lsd-rs/lsd): 
+- [**lsd**](https://github.com/lsd-rs/lsd): A more in depth version of ls - really useful when you need to go poking around file systems in a pinch
+
+## Application Tools
+
+### API clients
+- [**Bruno**]
+
+### Containers
+-
+
+### Cloud Providers
+
+### Text Editors
+- VSCode
