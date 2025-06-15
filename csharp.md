@@ -8,7 +8,20 @@ Table Of Contents:
 
 ## Utility
 
-> Libraries that can apply to almost any type of code!
+> Libraries that can apply to almost any type of code!!
+
+### 🎏 Asynchrony, Concurrency and Multithreading
+
+> These are advanced libraries for managing asynchrony (tasks) beyond the System.Tasks library.
+
+- [**Channels**]():
+- [**Dataflow**]():
+- [**Reactive**]():
+- [**Linq Async**]():
+
+### Background Tasks
+
+- [**Quartz.Net** (Fluent Tasks)]: 
 
 ### 🧰 Types
 
@@ -20,8 +33,6 @@ Table Of Contents:
 
 <details>
   <summary> System Library Bits To Not Forget!</summary>
-
-  - 
 </details>
 
 ### 💪 Resiliency
@@ -32,33 +43,14 @@ Table Of Contents:
 ### ☑️ Validation & Sanitization
 - [**FluentValidation** (Validation)](https://github.com/FluentValidation/FluentValidation):
 - [**DataAnnotations** (Validation)](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=net-9.0): Including this also as for most simple cases, it should be enough, but lacks the customization that FluentValidation has
-- [**Throw** (Guard Clauses)](https://github.com/amantinband/throw):
+- [**Throw** (Guard Clauses)](https://github.com/amantinband/throw): Fluent offensive programming - super good 
 - [**HtmlSanitizer**](https://github.com/mganss/HtmlSanitizer): If you need a large amount of control over sanitizing
 
 ### Networking
 
 - RestSharp:
 
-### Background Tasks
 
-- 
-
-### 💽 Data Handling
-- [**System.Text.Json** (JSON)](https://www.nuget.org/packages/system.text.json/): Microsoft's in-house json library is now the standard, and it comes with some tricky-to-learn but easy-to-use paradigms, especially when it comes to customization.
-- [**CsvHelper** (CSV))](https://github.com/JoshClose/CsvHelper): Much easier than doing parsing using anything the System library has.
-- [**YamlDotNet** (YAML)](https://github.com/aaubry/YamlDotNet): 
-- [**Tomlyn** (TOML)](https://github.com/xoofx/Tomlyn): Excellent TOML handling... slightly too much string key indexing for my liking, so use with caution, but still cool.
-- [**dotenv.Net** (.env)](https://github.com/bolorundurowb/dotenv.net):
-
-
-### 🎏 Asynchrony, Concurrency and Multithreading
-
-> These are advanced libraries for managing asynchrony (tasks) beyond the System.Tasks library.
-
-- [**Channels**]():
-- [**Dataflow**]():
-- [**Reactive**]():
-- [**Linq Async**]():
 
 ### 💉 Dependency Injection
 
@@ -72,17 +64,20 @@ Table Of Contents:
 
 ## 💾 CLI / Console
 
-> These libraries are for developing 
+> These libraries are for developing Console or CLI applications.
 
 - [**Cocona** (CLI Framework)](https://github.com/mayuki/Cocona): Makes composing a high-quality 
-- [**Spectre.Console** (Console API)]():
+- [**Spectre.Console** (Console API)](https://spectreconsole.net/):
 - [**Kurukuru** (Spinner)]():
 - [**Dumpify** (Table-Printing)]():
+- [**Publishing Dotnet Tools**]():
 
 ## 🫵 Interactive (REPL's, Playgrounds & Notebooks)
-- [**Dotnet Interactive** (Generic Background Library)](https://github.com/dotnet/interactive)
-- [**Dotnet Script** (Scripting in C#)]()
-- [**Polyglot Notebooks** (Jupyter Notebooks)]
+- [**Dotnet Interactive** (Generic Background Library)](https://github.com/dotnet/interactive): The generic underlying technology behind using .NET outside of the constraints of an executable.
+- [**Dotnet Script** (Scripting in C#)](https://github.com/dotnet-script/dotnet-script): Allows you to run script files (`.csx`) making 
+- [**Dotnet REPL** (Command-Line C#)](https://github.com/jonsequitur/dotnet-repl): Of limited use, but can be cool to try out ideas very simply. Creates a .NET REPL in your shell!
+- [**Polyglot Notebooks** (Jupyter Notebooks)]:
+- 
 
 ## 🕸 Web (Back-End)
 - 
@@ -105,6 +100,7 @@ Table Of Contents:
 > For obvious reasons, the dotnet/microsoft libraries have the most security. However there are some specialist cases
 
 - [**JWT**]():
-- [**NSec** (Cryptography)](https://github.com/ektrah/nsec): A trusted utility library
+- [**NSec** (Cryptography)](https://github.com/ektrah/nsec): A trusted utility library for cryptography and encryption algorithms
 
 ## Wonderful But Things I Don't Use Regularly
+- 
