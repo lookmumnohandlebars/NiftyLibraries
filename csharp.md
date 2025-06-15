@@ -40,6 +40,13 @@ Table Of Contents:
 - [**Polly** (Resiliency/Retries)](https://github.com/App-vNext/Polly):
 - [**Microsoft.Extensions.Resilience**]:
 
+### 🔐 Security
+
+> For obvious reasons, the dotnet/microsoft libraries have the most security. However there are some specialist cases
+
+- [**JWT**](https://github.com/jwt-dotnet/jwt):
+- [**NSec** (Cryptography)](https://github.com/ektrah/nsec): A trusted utility library for cryptography and encryption algorithms
+
 ### ☑️ Validation & Sanitization
 - [**FluentValidation** (Validation)](https://github.com/FluentValidation/FluentValidation):
 - [**DataAnnotations** (Validation)](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=net-9.0): Including this also as for most simple cases, it should be enough, but lacks the customization that FluentValidation has
@@ -94,13 +101,6 @@ Table Of Contents:
 ## ䷓ Templating
 - [**RazorEngineCore** (Templated Strings)](https://github.com/adoconnection/RazorEngineCore)
 - []
-
-## 🔐 Security
-
-> For obvious reasons, the dotnet/microsoft libraries have the most security. However there are some specialist cases
-
-- [**JWT**]():
-- [**NSec** (Cryptography)](https://github.com/ektrah/nsec): A trusted utility library for cryptography and encryption algorithms
 
 ## Wonderful But Things I Don't Use Regularly
 - 
