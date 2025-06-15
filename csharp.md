@@ -53,6 +53,8 @@ Table Of Contents:
 - [**Throw** (Guard Clauses)](https://github.com/amantinband/throw): Fluent offensive programming - super good 
 - [**HtmlSanitizer**](https://github.com/mganss/HtmlSanitizer): If you need a large amount of control over sanitizing
 
+### Email
+
 ### Networking
 
 - RestSharp:
@@ -69,7 +71,7 @@ Table Of Contents:
 
 ## Application / Frameworks
 
-## 💾 CLI / Console
+### 💾 CLI / Console
 
 > These libraries are for developing Console or CLI applications.
 
@@ -79,28 +81,35 @@ Table Of Contents:
 - [**Dumpify** (Table-Printing)]():
 - [**Publishing Dotnet Tools**]():
 
-## 🫵 Interactive (REPL's, Playgrounds & Notebooks)
+### 🫵 Interactive (REPL's, Playgrounds & Notebooks)
 - [**Dotnet Interactive** (Generic Background Library)](https://github.com/dotnet/interactive): The generic underlying technology behind using .NET outside of the constraints of an executable.
 - [**Dotnet Script** (Scripting in C#)](https://github.com/dotnet-script/dotnet-script): Allows you to run script files (`.csx`) making 
 - [**Dotnet REPL** (Command-Line C#)](https://github.com/jonsequitur/dotnet-repl): Of limited use, but can be cool to try out ideas very simply. Creates a .NET REPL in your shell!
 - [**Polyglot Notebooks** (Jupyter Notebooks)]:
 - 
 
-## 🕸 Web (Back-End)
+### 🕸 Web (Back-End)
 - 
 
-## 🖼 Web (Front-End)
+### 🖼 Web (Front-End)
 - 
 
-## 📜 API Documentation
+### 📜 API Documentation
 - [**Microsoft.OpenAPI** (OpenAPI)](https://github.com/Microsoft/OpenAPI.NET): Where swagger once ruled, Microsoft's OpenAPI.NET is now the best of all worlds! Highly recommended!
 - [**Kiota** (SDK Generation)](https://github.com/microsoft/kiota): Not specifically .NET... but you can use really neatly with OpenAPI to generate SDK's, and save yourself HOURS of development.
 - [**DocFX** (Document Site Generation)](https://github.com/dotnet/docfx): The .NET team's own take on developer docs, integrates really well with both XML docs and standard .NET repos! You can also generate
 
 
-## ䷓ Templating
+### ䷓ Templating
 - [**RazorEngineCore** (Templated Strings)](https://github.com/adoconnection/RazorEngineCore)
-- []
+
+---
+
+## ML, AI & Computation
+
+### Mathematics Libraries
+
+---
 
 ## Wonderful But Things I Don't Use Regularly
 - 
