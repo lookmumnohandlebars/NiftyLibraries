@@ -1,7 +1,7 @@
 # Nifty Libraries for C#
 
 > A curated list of libraries that supercharge development for C#/.NET. These libraries have been vetted to meet a high standard and have been personally used before recommending. There tends to be only one library per use-case (i.e. I've mostly opted for a favorite of two, rather than including every library)
-> You can choose to this as a starter-list for "accepted" open-source libraries for your company, department or project, and expand as you need (preventing duplication of
+> You can choose to this as a starter-list for "accepted" open-source libraries for your company, department or project, and expand as you need (preventing duplication of problems that have already been solved.
 
 ## 🧰 Utility Types
 
@@ -21,7 +21,8 @@
 
 > Libraries and Development
 
-- [**Polly** (Resiliency/Retries)](https://github.com/App-vNext/Polly)
+- [**Polly** (Resiliency/Retries)](https://github.com/App-vNext/Polly):
+- []
 
 
 ## 🎏 Asynchrony, Concurrency and Multithreading
@@ -30,8 +31,8 @@
 
 - [**Channels**]():
 - [**Dataflow**]():
-- Reactive:
-- Linq Async:
+- [**Reactive**]():
+- [**Linq Async**]():
 
 ## 💾 CLI / Console
 
@@ -42,11 +43,18 @@
 - [**Kurukuru** (Spinner)]():
 - [**Dumpify** (Table-Printing)]():
 
+## 💉 Dependency Injection
+
+- [**Microsoft.DependencyInjection**](): While others exist are widely used, I would highly recommend sticking to using the native
+- [**Scrutor**](https://github.com/khellang/Scrutor): This library neatly wraps around the microsoft DI library to add lovely things like decoration.
+
 ## 🫵 Interactive (REPL's, Playgrounds & Notebooks)
-- 
+- [**Dotnet Interactive** (Generic Background Library)](https://github.com/dotnet/interactive)
+- [**Dotnet Script** (Scripting in C#)]()
+- [**Polyglot Notebooks** (Jupyter Notebooks)]
 
 ## 🕸 Web (Back-End)
-
+- 
 
 ## 🖼 Web (Front-End)
 - 
@@ -67,7 +75,11 @@
 - [**FluentValidation** (Validation)](https://github.com/FluentValidation/FluentValidation):
 - [**DataAnnotations** (Validation)](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=net-9.0): Including this also as for most simple cases, it should be enough, but lacks the customization that FluentValidation has
 - [**Throw** (Guard Clauses)](https://github.com/amantinband/throw):
-- [**HtmlSanitizer**](https://github.com/mganss/HtmlSanitizer): If you need a large amount of control 
+- [**HtmlSanitizer**](https://github.com/mganss/HtmlSanitizer): If you need a large amount of control over sanitizing
+
+## ䷓ Templating
+- [**RazorEngineCore** (Templated Strings)](https://github.com/adoconnection/RazorEngineCore)
+- []
 
 ## 🔐 Security
 
